@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import {Character} from './Character.js'
+import React, {useState, useEffect} from 'react';
+import {Template} from '../components/Template.js';
 
 export const Characters = () => {
 
@@ -18,10 +18,8 @@ export const Characters = () => {
     return(
         <>
             <div>
-                <button>Students</button>
-                <button>Staff</button>
                 {characters.map((element) => (
-                    <Character element={element}/>
+                    <Template element={element}/>
                 ))}
             </div>
         </>

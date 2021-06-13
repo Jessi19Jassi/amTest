@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Character = (props) =>{
+export const Template = (props) =>{
     return(
         <div className="card">
         <div className="card-body">
