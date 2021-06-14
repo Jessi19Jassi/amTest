@@ -1,5 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import './Buttons.scss';
+import harryPotter from '../assets/harry-potter.png';
 
 export const Buttons = () =>{
 
@@ -14,9 +16,13 @@ export const Buttons = () =>{
     }
 
     return(
-        <div>
-            <button onClick={handleClick}>Students</button>
-            <button onClick={handleClik}>Staff</button>
+        <div className="containerBtns">
+            <img className="titleHP" src={harryPotter} alt="harryPotter"/>
+            <h2>Selecciona tu filtro</h2>
+            <div className="buttonsG">
+                <button className="btnStudents" onClick={handleClick}>ESTUDIANTES</button>
+                <button className="btnStaff" onClick={handleClik}>STAFF</button>
+            </div>
         </div>
     )
 }

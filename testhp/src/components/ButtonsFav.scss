@@ -1,0 +1,30 @@
+$widthBTN: 121.5px;
+
+.btnsFavs{
+    display: flex;
+    height: 27px;
+    flex-direction: row;
+    justify-content: flex-end;
+    .btnFav{
+        background: #6B63B5;
+        border-radius: 0 0 0 10px;
+        color: white;
+        border: solid 1px black;
+        width: $widthBTN;
+    }
+    .btnAdd{
+        background: #6B63B5;
+        border-radius: 0 0 10px 0;
+        color: white;
+        border: solid 1px black;
+        width: $widthBTN;
+    }
+    .favorite{
+        width: 14px;
+        height: 10px;
+    }
+    .add{
+        width: 14px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,156 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2%;
+}
+
+.card .card-body-text {
+  width: 390px;
+  height: 215px;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card-body-text .favorite {
+  width: 25px;
+  height: 17px;
+  margin-left: 87%;
+}
+
+.card .card-body-text .imgTemplate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  background-color: orange;
+  height: 215px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8% 0 0 8%;
+}
+
+.card .card-body-text .imgTemplate img {
+  left: 50%;
+  top: 50%;
+  height: 58%;
+  width: 123.5px;
+  border-radius: 70%;
+}
+
+.card .card-body-text .textTemplate {
+  color: black;
+  background-color: white;
+  width: 60%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: inherit;
+  padding: 2%;
+  border-radius: 0 8% 8% 0;
+}
+
+.card .card-body-text .textTemplate .nameHP {
+  font-size: 23px;
+  margin-top: 2%;
+  color: #081f32;
+  text-shadow: 0 0 black;
+}
+
+.card .card-body-text .textTemplate .parrafo {
+  font-size: 12px;
+}
+
+@media all and (max-width: 508px) {
+  .card .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2%;
+  }
+  .card .card-body-text {
+    width: 140px;
+    height: 181px;
+    border-radius: 12%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 11%;
+  }
+  .card .card-body-text .favorite {
+    width: 16px;
+    height: 14px;
+  }
+  .card .card-body-text .imgTemplate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    height: 93px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 8% 8% 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card .card-body-text .imgTemplate img {
+    height: 82%;
+    width: 75.5px;
+    border-radius: 70%;
+  }
+  .card .card-body-text .textTemplate {
+    color: black;
+    background-color: white;
+    width: 96%;
+    height: 90px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: inherit;
+    padding: 2%;
+    border-radius: 0 0 8% 8%;
+  }
+  .card .card-body-text .textTemplate .nameHP {
+    font-size: 15px;
+    margin-top: 2%;
+    color: #081f32;
+    text-shadow: 0 0 black;
+    text-align: center;
+  }
+  .card .card-body-text .textTemplate .parrafo {
+    color: transparent;
+  }
+}
+/*# sourceMappingURL=Template.css.map */

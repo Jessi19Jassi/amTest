@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import {Template} from '../components/Template.js';
-import {Buttons} from '../components/Buttons.js';
+import './Students.scss';
 
 export const Students = () => {
 
@@ -20,8 +20,10 @@ export const Students = () => {
 	}
 
     return(
+        
         <div>
-            <Buttons />
+<link rel="stylesheet" href="styles.css" />
+
             {students.map((element) => (
                 <Template element={element}/>
             ))}

@@ -1,12 +1,10 @@
 import React from 'react';
 import {Characters} from '../characters/Characters.js';
-import {Buttons} from '../components/Buttons.js';
+import './Principal.scss';
 
 export const Principal = () =>{
-
     return(
-        <div>
-            <Buttons />
+        <div className="principalDiv">
             <Characters />
         </div>
     )

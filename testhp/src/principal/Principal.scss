@@ -1,0 +1,15 @@
+.principalDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -17em;
+
+@media all and (max-width: 508px){
+    .principalDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+}
+}
+
