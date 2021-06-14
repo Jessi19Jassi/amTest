@@ -1,24 +1,25 @@
 # amTest Harry Potter⚡
 __________________________________________________________________________________________________________________________________________________________________________________
 ## Preámbulo
-* [1. Inicio] (#1-Inicio)
-* [2. Instrucciones para levantar el proyecto] (#2-Instrucciones)
-* [3. Preunta I] (#3-Pregunta 1)
-* [4. Pregunta II] (#4-Pregunta 2)
-* [5.Comentarios] (#5-Comentarios)
+* 1. Inicio
+* 2. Instrucciones para levantar el proyecto
+* 3. Preunta I
+* 4. Pregunta II
+* 5. Comentarios 
 ***
 ## 1. Inicio
 
 Harry Potter es una novela fantástica que escribió J.K. Rowling en donde narra las aventuras de un joven aprendiz de mago llamado Harry junto con sus mejores amigos Hermione y Ron mientras hacen estudios de alta magia y hechicería en el famoso Colegio Hogwarts.
 Toda la trama irá en la lucha que tendrá Harry Potter con el malo Lord Voldemort que fue la persona que asesinó a sus padres.
-__________________________________________________________________________________________________________________________________________________________________________________
+
 amTest Harry Potter es una aplicación la cual te mostrará con ayuda de una API JSON, los personajes que existen en el mundo mágico de Harry Potter.
 
 
 - Si lo único que deseas es ver los estudiantes solo da click en "Estudiantes".
 
 - Si solo quieres ver a los de staff, solo basta con dar click en "Staff".
-________________________________________________________________________________________________________________________________________________________________________________
+
+
 amTest Harry Potter es responsive, es decir, se adapta a cualquier tamaño de pantalla. 
                 
 ![](/testhp/src/assets/imagen3.png) 
