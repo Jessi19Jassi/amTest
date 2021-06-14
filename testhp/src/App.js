@@ -3,6 +3,7 @@ import {Students} from './students/Students';
 import {Staff} from './staff/Staff';
 import {Buttons} from './components/Buttons';
 import {ButtonsFav} from './components/ButtonsFav';
+import {Dead} from './dead/Dead'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.scss'
 
@@ -27,6 +28,11 @@ function App() {
             <ButtonsFav />
             <Buttons />
             <Staff />
+          </Route>
+          <Route exact path='/dead'>
+            <ButtonsFav />
+            <Buttons />
+            <Dead />
           </Route>
         </Switch>
       </div>
