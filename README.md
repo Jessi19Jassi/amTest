@@ -8,5 +8,6 @@ amTest Harry Potter es una aplicación la cual te mostrará con ayuda de una API
 ![](/testhp/src/assets/imagen3.png) 
 - Si solo quieres ver a los de staff, solo basta con dar click en "Staff".
 ___________________________________________________________________________________________________________________________________________________________________________________
-amTest Harry Potter es responsive, es decir, se adapta a cualquier tamaño de pantalla. ![](/testhp/src/assets/imagen2.png) 
+amTest Harry Potter es responsive, es decir, se adapta a cualquier tamaño de pantalla. 
+                              ![](/testhp/src/assets/imagen2.png) 
 
