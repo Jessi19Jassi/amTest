@@ -1,0 +1,123 @@
+.containerBtns {
+  background: url("../assets/Background.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 42em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background: cover;
+  margin-top: -25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerBtns .buttonsG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.containerBtns .titleHP {
+  width: 193.8px;
+  height: 66px;
+  margin-top: -225px;
+}
+
+.containerBtns h2 {
+  font-size: 36px;
+}
+
+.containerBtns .btnStudents {
+  height: 44px;
+  margin: 2%;
+  width: 110px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  color: white;
+  border: solid 1px #6b63b5;
+}
+
+.containerBtns .btnStudents:hover {
+  background-color: rgba(107, 99, 181, 0.6);
+}
+
+.containerBtns .btnStudents:focus {
+  background-color: #6b63b5;
+}
+
+.containerBtns .btnStaff {
+  height: 44px;
+  margin: 2%;
+  width: 110px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  color: white;
+  border: solid 1px #6b63b5;
+}
+
+.containerBtns .btnStaff:hover {
+  background-color: rgba(107, 99, 181, 0.6);
+}
+
+.containerBtns .btnStaff:focus {
+  background-color: #6b63b5;
+}
+
+@media all and (max-width: 508px) {
+  .containerBtns {
+    background: black;
+    margin-bottom: -80%;
+  }
+  .containerBtns .titleHP {
+    width: 193.8px;
+    height: 66px;
+    margin-top: -250px;
+  }
+  .containerBtns h2 {
+    font-size: 26px;
+  }
+  .containerBtns .btnStudents {
+    height: 44px;
+    margin: 2%;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    color: white;
+    border: solid 1px #6b63b5;
+  }
+  .containerBtns .btnStudents:hover {
+    background-color: rgba(107, 99, 181, 0.6);
+  }
+  .containerBtns .btnStudents:focus {
+    background-color: #6b63b5;
+  }
+  .containerBtns .btnStaff {
+    height: 44px;
+    margin: 2%;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    color: white;
+    border: solid 1px #6b63b5;
+  }
+  .containerBtns .btnStaff:hover {
+    background-color: rgba(107, 99, 181, 0.6);
+  }
+  .containerBtns .btnStaff:focus {
+    background-color: #6b63b5;
+  }
+}
+/*# sourceMappingURL=Buttons.css.map */

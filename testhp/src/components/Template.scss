@@ -1,0 +1,115 @@
+$font-size: 8px;
+$m-top: -6px;
+
+.card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+  
+    .card-body-text{
+        width: 390px;
+        height: 215px;
+        padding: 0%;
+        display: flex;
+        .favorite{
+            width: 25px;
+            height: 17px;
+            margin-left: 87%;
+        }
+        .imgTemplate{
+            display: flex;
+            width: 40%;
+            background-color: orange;
+            height: 215px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8% 0 0 8%;
+            img{
+                left: 50%;
+                top: 50%;
+                height: 58%;
+                width: 123.5px;
+                border-radius: 70%;
+            }
+        }
+        .textTemplate{
+            color:black;
+            background-color: white;
+            width: 60%;
+            flex-wrap: wrap;
+            text-align: inherit;
+            padding: 2%;
+            border-radius: 0 8% 8% 0;
+            .nameHP{
+                font-size: 23px;
+                margin-top: 2%;
+                color: rgba(8, 31, 50, 1);
+                text-shadow: 0 0 black;
+                        }
+            .parrafo{
+                font-size: 12px;
+            }
+        }
+    }
+
+    @media all and (max-width: 508px){
+        .card{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2%;}
+        .card-body-text{
+            width: 140px;
+            height: 181px;
+            border-radius: 12%;
+            padding: 2%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 11%;
+            .favorite{
+                width: 16px;
+                height: 14px;
+            }
+            .imgTemplate{
+                display: flex;
+                width: 100%;
+                background-color: orange;
+                height: 93px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8% 8% 0 0;
+                flex-direction: column;
+                img{
+                    height: 82%;
+                    width: 75.5px;
+                    border-radius: 70%;
+                }
+            }
+            .textTemplate{
+                color: black;
+                background-color: white;
+                width: 96%;
+                height: 90px;
+                flex-wrap: wrap;
+                text-align: inherit;
+                padding: 2%;
+                border-radius: 0 0 8% 8%;
+                .nameHP{
+                    font-size: 15px;
+                    margin-top: 2%;
+                    color: rgba(8, 31, 50, 1);
+                    text-shadow: 0 0 black;
+                    text-align: center;
+                            }
+                .parrafo{
+                    color: transparent;
+                }
+            }
+    }
+    }
+
+}
+

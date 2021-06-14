@@ -1,0 +1,40 @@
+.btnsFavs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 27px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btnsFavs .btnFav {
+  background: #6B63B5;
+  border-radius: 0 0 0 10px;
+  color: white;
+  border: solid 1px black;
+  width: 121.5px;
+}
+
+.btnsFavs .btnAdd {
+  background: #6B63B5;
+  border-radius: 0 0 10px 0;
+  color: white;
+  border: solid 1px black;
+  width: 121.5px;
+}
+
+.btnsFavs .favorite {
+  width: 14px;
+  height: 10px;
+}
+
+.btnsFavs .add {
+  width: 14px;
+  height: 10px;
+}
+/*# sourceMappingURL=ButtonsFav.css.map */

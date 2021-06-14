@@ -1,0 +1,18 @@
+$background: black;
+$widthH1: 400px;
+$colorn: white;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background: $background;
+    width: $widthH1;
+    color:$colorn;
+    font-family: 'Open Sans', sans-serif;
+    height: 410px;
+    width: 100%;
+ 
+    @media all and (max-width: 508px){
+        background: $background;
+
+    }
+}
